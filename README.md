@@ -1,6 +1,6 @@
 # Watson IoT's Carbon Theme Mixin
 
-The Carbon design system uses [themeing](https://next.carbondesignsystem.com/guidelines/themes/#themes-are-used-to-customize-component-styles-to-fit-the-specific-aesthetic-of-a-brand-or-product) for customization of CSS properties. The wiot-theme partial creates the mixin that will override the default theme applied to the Carbon component library.
+The Carbon design system uses [theming](https://next.carbondesignsystem.com/guidelines/themes/#themes-are-used-to-customize-component-styles-to-fit-the-specific-aesthetic-of-a-brand-or-product) for customization of CSS properties. The wiot-theme partial creates the mixin that will override the default theme applied to the Carbon component library.
 
 ## Usage
 
