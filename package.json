@@ -1,10 +1,10 @@
 {
   "name": "wiot-theme",
-  "version": "1.0.7",
+  "version": "1.0.6",
   "description": "Carbon theme mixin for Watson IoT Org",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"create some test\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Davidicus",
