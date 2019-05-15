@@ -1,6 +1,6 @@
 {
   "name": "wiot-theme",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Carbon theme mixin for Watson IoT Org",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "Davidicus",
   "license": "MIT",
   "dependencies": {
-    "@carbon/colors": "^0.0.1-alpha.12"
+    "@carbon/colors": "^10.1.1"
   }
 }

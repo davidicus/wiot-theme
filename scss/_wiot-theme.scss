@@ -1,56 +1,56 @@
 @import "@carbon/colors/scss/colors";
 
 @mixin WatsonIotTheme {
-  $ui-background: $ibm-colors__gray-10 !default !global;
-  $interactive-01: $ibm-colors__blue-60 !default !global;
-  $interactive-02: $ibm-colors__gray-100 !default !global;
-  $interactive-03: $ibm-colors__blue-60 !default !global;
-  $interactive-04: $ibm-colors__blue-60 !default !global;
-  $ui-01: $ibm-colors__white-0 !default !global;
-  $ui-02: $ibm-colors__gray-10 !default !global;
-  $ui-03: $ibm-colors__gray-20 !default !global;
-  $ui-04: $ibm-colors__gray-50 !default !global;
-  $ui-05: $ibm-colors__gray-100 !default !global;
-  $text-01: $ibm-colors__gray-100 !default !global;
-  $text-02: $ibm-colors__gray-70 !default !global;
-  $text-03: $ibm-colors__gray-50 !default !global;
-  $text-04: $ibm-colors__white-0 !default !global;
-  $link-01: $ibm-colors__blue-60 !default !global;
-  $icon-01: $ibm-colors__gray-100 !default !global;
-  $icon-02: $ibm-colors__gray-70 !default !global;
-  $icon-03: $ibm-colors__white-0 !default !global;
-  $field-01: $ibm-colors__white-0 !default !global;
-  $field-02: $ibm-colors__gray-10 !default !global;
-  $inverse-01: $ibm-colors__white-0 !default !global;
-  $inverse-02: $ibm-colors__gray-80 !default !global;
-  $support-01: $ibm-colors__red-60 !default !global;
-  $support-02: $ibm-colors__green-50 !default !global;
-  $support-03: $ibm-colors__yellow !default !global;
-  $support-04: $ibm-colors__blue-70 !default !global;
-  $overlay-01: rgba($ibm-colors__gray-100, 50%) !default !global;
-  $focus: $ibm-colors__blue-60 !default !global;
+  $ui-background: $carbon--gray-10 !default !global;
+  $interactive-01: $carbon--blue-60 !default !global;
+  $interactive-02: $carbon--gray-100 !default !global;
+  $interactive-03: $carbon--blue-60 !default !global;
+  $interactive-04: $carbon--blue-60 !default !global;
+  $ui-01: $carbon--white-0 !default !global;
+  $ui-02: $carbon--gray-10 !default !global;
+  $ui-03: $carbon--gray-20 !default !global;
+  $ui-04: $carbon--gray-50 !default !global;
+  $ui-05: $carbon--gray-100 !default !global;
+  $text-01: $carbon--gray-100 !default !global;
+  $text-02: $carbon--gray-70 !default !global;
+  $text-03: $carbon--gray-50 !default !global;
+  $text-04: $carbon--white-0 !default !global;
+  $link-01: $carbon--blue-60 !default !global;
+  $icon-01: $carbon--gray-100 !default !global;
+  $icon-02: $carbon--gray-70 !default !global;
+  $icon-03: $carbon--white-0 !default !global;
+  $field-01: $carbon--white-0 !default !global;
+  $field-02: $carbon--gray-10 !default !global;
+  $inverse-01: $carbon--white-0 !default !global;
+  $inverse-02: $carbon--gray-80 !default !global;
+  $support-01: $carbon--red-60 !default !global;
+  $support-02: $carbon--green-50 !default !global;
+  $support-03: $carbon--yellow-20 !default !global;
+  $support-04: $carbon--blue-70 !default !global;
+  $overlay-01: rgba($carbon--gray-100, 50%) !default !global;
+  $focus: $carbon--blue-60 !default !global;
   $hover-primary: #0353e9 !default !global;
-  $hover-primary-text: $ibm-colors__blue-70 !default !global;
+  $hover-primary-text: $carbon--blue-70 !default !global;
   $hover-secondary: #4c4c4c !default !global;
   $hover-tertiary: #0353e9 !default !global;
   $hover-ui: #e5e5e5 !default !global;
   $hover-selected-ui: #cacaca !default !global;
   $hover-danger: #ba1b23 !default !global;
   $hover-row: #e5e5e5 !default !global;
-  $active-primary: $ibm-colors__blue-80 !default !global;
-  $active-secondary: $ibm-colors__gray-60 !default !global;
-  $active-tertiary: $ibm-colors__blue-80 !default !global;
-  $active-ui: $ibm-colors__gray-30 !default !global;
-  $active-danger: $ibm-colors__red-80 !default !global;
-  $selected-ui: $ibm-colors__gray-20 !default !global;
-  $highlight: $ibm-colors__blue-10 !default !global;
-  $visited-link: $ibm-colors__purple-60 !default !global;
-  $disabled-01: $ibm-colors__white-0 !default !global;
-  $disabled-02: $ibm-colors__gray-30 !default !global;
-  $disabled-03: $ibm-colors__gray-50 !default !global;
+  $active-primary: $carbon--blue-80 !default !global;
+  $active-secondary: $carbon--gray-60 !default !global;
+  $active-tertiary: $carbon--blue-80 !default !global;
+  $active-ui: $carbon--gray-30 !default !global;
+  $active-danger: $carbon--red-80 !default !global;
+  $selected-ui: $carbon--gray-20 !default !global;
+  $highlight: $carbon--blue-10 !default !global;
+  $visited-link: $carbon--purple-60 !default !global;
+  $disabled-01: $carbon--white-0 !default !global;
+  $disabled-02: $carbon--gray-30 !default !global;
+  $disabled-03: $carbon--gray-50 !default !global;
   $wiot-gradient: linear-gradient(
     45deg,
-    $ibm-colors__purple-40,
-    $ibm-colors__blue-50
+    $carbon--purple-40,
+    $carbon--blue-50
   ) !default !global;
 }
